@@ -11,7 +11,7 @@ export async function generateMetadata() {
 }
 
 export default async function Home() {
-  // const cookiesStore = cookies() // refresh the page with and without this line and notice the logs
+  const cookiesStore = cookies() // refresh the page with and without this line and notice the logs
 
   const response = await fetch(`http://localhost:3000/api/test`)
 
