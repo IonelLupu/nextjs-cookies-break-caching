@@ -1,4 +1,4 @@
-// export const revalidate = 10
+export const revalidate = 10
 
 import { cookies } from 'next/headers'
 
